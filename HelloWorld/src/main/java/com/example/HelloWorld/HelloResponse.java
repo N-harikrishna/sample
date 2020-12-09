@@ -10,6 +10,7 @@ public class HelloResponse {
 
 	@GetMapping
 	public String sayHello() {
+		System.out.println("sdfds");
 		return "welcome to spring boot";
 	}
 	
